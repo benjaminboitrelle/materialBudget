@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<gear>
+  <global detectorName="EUTelescope"/>
+  <!--Gear XML file automatically created with GearXML::createXMLFile ....-->
+  <BField type="ConstantBField" x="0.00" y="0.00" z="0.00"/>
+  <detectors>
+    <detector geartype="SiPlanesParameters" name="SiPlanes">
+      <siplanesID ID="0"/>
+      <siplanesType type="TelescopeWithoutDUT"/>
+      <siplanesNumber number="6"/>
+      <parameter name="Geometry" type="StringVec" value="Mimosa26.so Mimosa26.so Mimosa26.so Mimosa26.so Mimosa26.so Mimosa26.so"/>
+      <!-- z along beam -->
+      <layers>
+        <!--Datura Plane 0 -->
+        <layer>
+          <ladder ID="2" positionX="0.00" positionY="0.00" positionZ="0.00" radLength="93.660734" rotationXY="0.00" rotationZX="0.00" rotationZY="0.00" sizeX="21.20" sizeY="10.60" thickness="0.036"/>
+          <sensitive ID="2" npixelX="1152" npixelY="576" pitchX="0.0184" pitchY="0.0184" positionX="0.00" positionY="0.00" positionZ="0.00" radLength="93.6607341" resolution="0.0040" rotation1="-1.0" rotation2="0.0" rotation3="0.0" rotation4="-1.0" sizeX="21.2" sizeY="10.6" thickness="0.060"/>
+        </layer>
+        <!--Datura Plane 1 -->
+        <layer>
+          <ladder ID="3" positionX="0.081" positionY="-0.257" positionZ="14.9" radLength="93.660734" rotationXY="-0.17" rotationZX="0.0" rotationZY="0.0" sizeX="21.20" sizeY="10.60" thickness="0.036"/>
+          <sensitive ID="3" npixelX="1152" npixelY="576" pitchX="0.0184" pitchY="0.0184" positionX="0.00" positionY="0.00" positionZ="0.00" radLength="93.6607341" resolution="0.0040" rotation1="-1.0" rotation2="0.0" rotation3="0.0" rotation4="-1.0" sizeX="21.2" sizeY="10.6" thickness="0.060"/>
+        </layer>
+        <!--OKF7 Plane 3 -->
+        <layer>
+          <ladder ID="1" positionX="2.448" positionY="0.032" positionZ="50.70" radLength="93.660734" rotationXY="-89.66" rotationZX="0.00" rotationZY="0.00" sizeX="21.20" sizeY="10.60" thickness="0.036"/>
+          <sensitive ID="1" npixelX="1152" npixelY="576" pitchX="0.0184" pitchY="0.0184" positionX="0.00" positionY="0.00" positionZ="0.00" radLength="93.6607341" resolution="0.0040" rotation1="-1.0" rotation2="0.0" rotation3="0.0" rotation4="-1.0" sizeX="21.2" sizeY="10.6" thickness="0.0"/>
+        </layer>
+        <!--VIRTUAL PLANE FOR X0 -->
+        <layer>
+          <ladder ID="271" positionX="0.0" positionY="0.0" positionZ="51.90" radLength="93.660734" rotationXY="0.0" rotationZX="0.0" rotationZY="0.0" sizeX="21.20" sizeY="10.60" thickness="2.0"/>
+          <sensitive ID="271" npixelX="1152" npixelY="576" pitchX="0.0184" pitchY="0.0184" positionX="-1.15143695" positionY="-2.2124544218" positionZ="38.00" radLength="93.6607341" resolution="0.0045" rotation1="-1.0" rotation2="0.0" rotation3="0.0" rotation4="-1.0" sizeX="21.2" sizeY="10.6" thickness="0.61"/>
+        </layer>
+        <!--OKF4Plane 3 -->
+        <layer>
+          <ladder ID="0" positionX="-3.411" positionY="+0.002" positionZ="53.1" radLength="93.660734" rotationXY="-90.53" rotationZX="180.00" rotationZY="0.00" sizeX="21.20" sizeY="10.60" thickness="0.036"/>
+          <sensitive ID="0" npixelX="1152" npixelY="576" pitchX="0.0184" pitchY="0.0184" positionX="0.00" positionY="0.00" positionZ="0.00" radLength="93.6607341" resolution="0.0040" rotation1="-1.0" rotation2="0.0" rotation3="0.0" rotation4="-1.0" sizeX="21.2" sizeY="10.6" thickness="0.0"/>
+        </layer>
+        <!--Datura Plane 4 -->
+        <layer>
+          <ladder ID="4" positionX="0.864" positionY="0.221" positionZ="72.2" radLength="93.660734" rotationXY="0.51" rotationZX="0.00" rotationZY="0.000" sizeX="21.20" sizeY="10.60" thickness="0.036"/>
+          <sensitive ID="4" npixelX="1152" npixelY="576" pitchX="0.0184" pitchY="0.0184" positionX="0.00" positionY="0.00" positionZ="0.00" radLength="93.6607341" resolution="0.0040" rotation1="-1.0" rotation2="0.0" rotation3="0.0" rotation4="-1.0" sizeX="21.2" sizeY="10.6" thickness="0.060"/>
+        </layer>
+        <!--Datura Plane 5 -->
+        <layer>
+          <ladder ID="5" positionX="1.157497406" positionY="0.1637573242" positionZ="400.00" radLength="93.660734" rotationXY="-0.10" rotationZX="0.00" rotationZY="0.00" sizeX="21.20" sizeY="10.60" thickness="0.036"/>
+          <sensitive ID="5" npixelX="1152" npixelY="576" pitchX="0.0184" pitchY="0.0184" positionX="0.00" positionY="0.00" positionZ="0.00" radLength="93.6607341" resolution="0.0040" rotation1="-1.0" rotation2="0.0" rotation3="0.0" rotation4="-1.0" sizeX="21.2" sizeY="10.6" thickness="0.060"/>
+        </layer>
+      </layers>
+    </detector>
+  </detectors>
+</gear>
